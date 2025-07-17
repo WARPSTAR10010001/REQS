@@ -1,0 +1,17 @@
+<div>
+  <header>
+    <a id="logo" [routerLink]="['/']">REQS</a>
+    <div class="headerlinks">
+      <a [routerLink]="['/entry']">Einträge aufrufen</a>
+      <a [routerLink]="['/new']">Neuer Eintrag</a>
+    </div>
+  </header>
+  <div class="main"><router-outlet></router-outlet></div>
+  <footer>
+    <div class="footerlinks">
+      <a [routerLink]="['/']">Zurück zu Home</a><br>
+      <a [routerLink]="['/info']">Informationen zu REQS</a>
+    </div>
+    <p class="pulse">(c) DIGITALWARPSTAR - 2025 / Version 1.0.0</p>
+  </footer>
+</div>

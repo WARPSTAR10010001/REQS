@@ -1,0 +1,41 @@
+#logo {
+    font-size: 3em;
+    text-decoration: none;
+    color: #000;
+}
+
+.headerlinks {
+    font-size: 1.4em;
+}
+
+header {
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #0000003f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.headerlinks > a {
+    margin: 0 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #0000003f;
+}
+
+.footerlinks {
+    font-size: 1.4em;
+}
