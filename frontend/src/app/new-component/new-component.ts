@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './new-component.css'
 })
 export class NewComponent {
-
+  clearInput(){
+    document.getElementById("newtitle")!.innerHTML = "";
+    document.getElementById("newdescription")!.innerText = "";
+  }
 }

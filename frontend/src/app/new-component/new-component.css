@@ -1,0 +1,13 @@
+form {
+    display: grid;
+    height: 400px;
+}
+
+.buttons {
+    font-size: 1.4em;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+}

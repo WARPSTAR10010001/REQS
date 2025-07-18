@@ -1,1 +1,23 @@
-<p>new-component works!</p>
+<div id="newcom" class="subpadding">
+    <h1 class="pagetitle pulse">Neuer Eintrag</h1>
+    <form>
+        <label class="tp">Titel:</label>
+        <input type="text" id="newtitle">
+        <br><br>
+        <label class="tp">Priorität:</label>
+        <select id="newpriority">
+            <option value="0">Optional</option>
+            <option value="1">Niedrig</option>
+            <option value="2">Mittel</option>
+            <option value="2">Hoch</option>
+        </select>
+        <br><br><br>
+        <label class="tp">Beschreibung:</label>
+        <input type="text" id="newdescription">
+    </form>
+    <br>
+    <div class="buttons">
+    <a id="submit" class="button-primary">Abschicken</a>
+    <a (click)="clearInput()" id="delete" class="button-important">Felder leeren</a>
+</div>
+</div>
