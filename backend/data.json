@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "title": "Test Entry",
+    "description": "This is a test",
+    "priority": "very high :3",
+    "id": 1
+  },
+  {
+    "title": "Test Entry",
+    "description": "This is a test",
+    "priority": "very high :3",
+    "id": 2
+  },
+  {
+    "title": "Test Entry",
+    "description": "This is a test",
+    "priority": "very high :3",
+    "id": 3
+  }
+]
