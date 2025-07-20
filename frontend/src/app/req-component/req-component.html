@@ -1,1 +1,11 @@
-<p>test</p>
+<a [routerLink]="['/detail', req.id]">
+    <div class="REQnode">
+        <h1 class="pulse">{{ req.title }}</h1>
+        <p>ID: {{ req.id }} / Priorität:
+            <span *ngIf="req.priority === 0">Optional</span>
+            <span *ngIf="req.priority === 1">Niedrig</span>
+            <span *ngIf="req.priority === 2">Mittel</span>
+            <span *ngIf="req.priority === 3">Hoch</span>
+        </p>
+    </div>
+</a>

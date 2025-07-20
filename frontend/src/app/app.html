@@ -1,15 +1,18 @@
 <div id="pagecontainer">
   <header>
-    <div class="logo-wrapper">
+    <a class="logo-wrapper" id="logo" [routerLink]="['/']">
       <img src="REQS-mono.png" height="60px" alt="Logo">
-      <a id="logo" [routerLink]="['/']">REQS</a>
-    </div>
+      <span>REQS</span>
+    </a>
     <div class="headerlinks">
       <a [routerLink]="['/entry']">Einträge aufrufen</a>
       <a [routerLink]="['/new']">Neuer Eintrag</a>
     </div>
   </header>
-  <div class="main"><router-outlet></router-outlet></div>
+  <div class="main">
+    <router-outlet></router-outlet>
+    <app-overlay-component></app-overlay-component>
+  </div>
   <footer>
     <div class="footerlinks">
       <a [routerLink]="['/']">Zurück zu Home</a><br>

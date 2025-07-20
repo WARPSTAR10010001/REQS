@@ -22,7 +22,7 @@ export class DetailComponent implements OnInit {
 
   remove() {
     this.serverAccess.deleteREQ(Number(this.activatedRoute.snapshot.paramMap.get("id"))).subscribe();
-    this.router.navigate(["/"]);
+    this.router.navigate(["/entry"]);
   }
 
   ngOnInit(): void {

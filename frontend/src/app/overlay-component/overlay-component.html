@@ -1,0 +1,12 @@
+<div class="overlay" *ngIf="isConfirmVisible">
+  <div class="modal">
+    <h2>Bestätigung</h2>
+    <p>{{ confirmMessage }}</p>
+    <button (click)="confirm()">Bestätigen</button>
+    <button (click)="cancel()">Abbrechen</button>
+  </div>
+</div>
+
+<div class="toast" *ngIf="isNotificationVisible" [ngClass]="notificationType">
+  {{ notificationMessage }}
+</div>

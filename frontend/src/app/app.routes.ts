@@ -30,11 +30,11 @@ export const routes: Routes = [
     {
         path: "detail/:id",
         component: DetailComponent,
-        title: "Anforderung - REQS"
+        title: "Eintrag Detailansicht - REQS"
     },
     {
         path: "edit/:id",
         component: EditComponent,
-        title: "Anforderung bearbeiten - REQS"
+        title: "Eintrag bearbeiten - REQS"
     }
 ];

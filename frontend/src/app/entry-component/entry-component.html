@@ -1,6 +1,6 @@
 <div id="entrycom" class="subpadding">
     <h1 class="pulse pagetitle">Eintragsliste</h1>
     <div id="result">
-        <app-req-component ></app-req-component>
+        <app-req-component *ngFor="let req of REQS" [req]="req"></app-req-component>
     </div>
 </div>
