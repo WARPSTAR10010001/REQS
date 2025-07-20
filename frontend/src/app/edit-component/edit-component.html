@@ -1,1 +1,22 @@
-<p>edit-component works!</p>
+<div id="newcom" class="subpadding">
+    <h1 class="pagetitle pulse">Eintrag bearbeiten</h1>
+    <form>
+        <label class="tp">Titel:</label>
+        <input type="text" [(ngModel)]="REQ.title" name="title">
+        <br><br>
+        <label class="tp">Priorität:</label>
+        <select [(ngModel)]="REQ.priority" name="priority">
+            <option value="0">Optional</option>
+            <option value="1">Niedrig</option>
+            <option value="2">Mittel</option>
+            <option value="3">Hoch</option>
+        </select>
+        <br><br><br>
+        <label class="tp">Beschreibung:</label>
+        <input type="text" [(ngModel)]="REQ.description" name="description">
+    </form>
+    <br>
+    <div class="buttons">
+        <a class="button-primary" (click)="update()">Aktualisieren</a>
+    </div>
+</div>

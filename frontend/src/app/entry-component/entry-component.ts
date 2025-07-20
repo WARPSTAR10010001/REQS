@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-entry-component',
-  imports: [ReqComponent],
+  imports: [ReqComponent, CommonModule],
   templateUrl: './entry-component.html',
   styleUrl: './entry-component.css'
 })

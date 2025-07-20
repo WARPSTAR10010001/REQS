@@ -1,6 +1,10 @@
 <div id="detailcom" class="subpadding">
     <h1 class="pulse pagetitle">{{ req.title }}</h1>
-    <p class="tp metadata">ID: {{ req.id }}    /     Priorität: 
+    <div class="links">
+        <a [routerLink]="['/edit', req.id]" class="button-primary">Eintrag bearbeiten</a>
+        <a (click)="remove()" class="button-important">Eintrag löschen</a>
+    </div>
+    <p class="tp metadata">ID: {{ req.id }} / Priorität: 
         <span *ngIf="req.priority === 0">Optional</span>
         <span *ngIf="req.priority === 1">Niedrig</span>
         <span *ngIf="req.priority === 2">Mittel</span>

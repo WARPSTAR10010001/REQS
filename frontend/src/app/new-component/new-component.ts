@@ -21,7 +21,7 @@ export class NewComponent {
     const newReq: REQ = {
       title: this.newTitle,
       description: this.newDescription,
-      priority: Number(this.newPriority)
+      priority: this.newPriority
     };
 
     if (newReq.title.length < 10 || newReq.description.length < 10) {
@@ -34,9 +34,9 @@ export class NewComponent {
             next: (latest) => {
               this.router.navigate(['/detail', latest.id]);
             }
-          })
+          });
         }
-      })
+      });
     }
   }
 

@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ServerAccess } from '../server-access';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { REQ } from '../req';
 
 @Component({
   selector: 'app-detail-component',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './detail-component.html',
   styleUrl: './detail-component.css'
 })
 export class DetailComponent implements OnInit {
-  constructor(private serverAccess: ServerAccess, private route: ActivatedRoute) { }
+  constructor(private serverAccess: ServerAccess, private activatedRoute: ActivatedRoute, private router: Router) { }
 
   req: REQ = {
     title: "",
@@ -20,9 +20,14 @@ export class DetailComponent implements OnInit {
     id: 0
   };
 
+  remove() {
+    this.serverAccess.deleteREQ(Number(this.activatedRoute.snapshot.paramMap.get("id"))).subscribe();
+    this.router.navigate(["/"]);
+  }
+
   ngOnInit(): void {
-    this.serverAccess.getREQ(Number(this.route.snapshot.paramMap.get("id"))).subscribe((response) => {
+    this.serverAccess.getREQ(Number(this.activatedRoute.snapshot.paramMap.get("id"))).subscribe((response) => {
       this.req = response;
-    })
+    });
   }
 }
