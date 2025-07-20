@@ -1,11 +1,35 @@
 <div id="homecom">
-    <div class="splash">
-        <h1 class="pulse">REQS - Requirement System</h1>
-        <p>Der Kompass für Projekte</p>
+    <div class="land">
+        <div class="splash">
+            <br><br><br>
+            <h1 class="pulse">REQS - Requirement System</h1>
+            <p id="subtext">Der Kompass zur Aufgabenverwaltung</p>
+        </div>
+        <div class="links">
+            <a id="entry" class="button-primary" [routerLink]="['/entry']">Einträge aufrufen</a>
+            <a id="new" class="button-primary" [routerLink]="['/new']">Neuer Eintrag</a>
+            <a id="info" class="button-primary" [routerLink]="['/info']">Informationen</a>
+        </div>
     </div>
-    <div class="links">
-        <a id="entry" class="button-primary" [routerLink]="['/entry']">Einträge aufrufen</a>
-        <a id="new" class="button-primary" [routerLink]="['/new']">Neuer Eintrag</a>
-        <a id="info" class="button-primary" [routerLink]="['/info']">Informationen</a>
+    <hr>
+    <div class="desc">
+        <h1 class="pulse">REQS ist...</h1>
+        <ul>
+            <li>auf den neuesten Webstandards basiert</li>
+            <li>Modular aufgebaut</li>
+            <li>systemübergreifend</li>
+            <li>benutzerfreundlich</li>
+            <li>leicht wartbar</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="manual">
+        <h1 class="pulse">Funktionen:</h1>
+        <ol>
+            <li>Einträge aufrufen</li>
+            <li>Eintrag erstellen</li>
+            <li>Eintrag bearbeiten</li>
+            <li>Eintrag löschen</li>
+        </ol>
     </div>
 </div>

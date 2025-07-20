@@ -8,7 +8,13 @@
     font-size: 1.4em;
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 header {
+    height: 45px;
     padding: 25px;
     background-color: #fff;
     box-shadow: 0px 0px 30px #0000003f;
@@ -30,6 +36,7 @@ header {
 }
 
 footer {
+    height: 90px;
     text-align: center;
     padding: 20px;
     background-color: #fff;
@@ -38,4 +45,10 @@ footer {
 
 .footerlinks {
     font-size: 1.4em;
+}
+
+#pagecontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }

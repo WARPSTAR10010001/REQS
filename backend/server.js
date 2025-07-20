@@ -17,6 +17,14 @@ app.get("/get", (req, res) => {
     res.status(200).send(data);
 });
 
+app.get("/get/latest", (req, res) => {
+    console.log("Req: Get Latest REQ");
+    const data = JSON.parse(fs.readFileSync("./data.json"));
+    const latest = data[data.length - 1];
+    console.log("Req: Get Latest REQ Executed");
+    res.status(200).json(latest);
+});
+
 app.get("/get/:id", (req, res) => {
     console.log("Req: Get REQ");
     const id = Number(req.params.id);

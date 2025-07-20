@@ -2,22 +2,22 @@
     <h1 class="pagetitle pulse">Neuer Eintrag</h1>
     <form>
         <label class="tp">Titel:</label>
-        <input type="text" id="newtitle">
+        <input type="text" [(ngModel)]="newTitle" name="title">
         <br><br>
         <label class="tp">Priorität:</label>
-        <select id="newpriority">
+        <select [(ngModel)]="newPriority" name="priority">
             <option value="0">Optional</option>
             <option value="1">Niedrig</option>
             <option value="2">Mittel</option>
-            <option value="2">Hoch</option>
+            <option value="3">Hoch</option>
         </select>
         <br><br><br>
         <label class="tp">Beschreibung:</label>
-        <input type="text" id="newdescription">
+        <input type="text" [(ngModel)]="newDescription" name="description">
     </form>
     <br>
     <div class="buttons">
-    <a id="submit" class="button-primary">Abschicken</a>
-    <a (click)="clearInput()" id="delete" class="button-important">Felder leeren</a>
-</div>
+        <a class="button-primary" (click)="submit()">Abschicken</a>
+        <a class="button-important" (click)="clearInput()">Felder leeren</a>
+    </div>
 </div>

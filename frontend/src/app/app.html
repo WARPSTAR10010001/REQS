@@ -1,6 +1,9 @@
-<div>
+<div id="pagecontainer">
   <header>
-    <a id="logo" [routerLink]="['/']">REQS</a>
+    <div class="logo-wrapper">
+      <img src="REQS-mono.png" height="60px" alt="Logo">
+      <a id="logo" [routerLink]="['/']">REQS</a>
+    </div>
     <div class="headerlinks">
       <a [routerLink]="['/entry']">Einträge aufrufen</a>
       <a [routerLink]="['/new']">Neuer Eintrag</a>
