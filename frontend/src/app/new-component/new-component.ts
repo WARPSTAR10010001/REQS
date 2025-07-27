@@ -26,7 +26,7 @@ export class NewComponent {
     const newReq: REQ = {
       title: this.newTitle,
       description: this.newDescription,
-      priority: this.newPriority
+      priority: Number(this.newPriority)
     };
 
     if (newReq.title.trim().length < 10 || newReq.description.trim().length < 10) {

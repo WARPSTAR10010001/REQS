@@ -1,5 +1,9 @@
 <div id="entrycom" class="subpadding">
-    <h1 class="pulse pagetitle">Eintragsliste</h1>
+    <div class="inline-form">
+        <span class="pulse pagetitle">Eintragsliste</span>
+        <input type="text" (input)="search()" name="search" id="search" placeholder="Suchen...">
+    </div>
+    <p id="noentries" *ngIf="available === false">Keine Einträge wurden gefunden.</p>
     <div id="result">
         <app-req-component *ngFor="let req of REQS" [req]="req"></app-req-component>
     </div>
