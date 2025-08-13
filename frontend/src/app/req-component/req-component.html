@@ -6,6 +6,8 @@
             <span *ngIf="req.priority === 1">Niedrig</span>
             <span *ngIf="req.priority === 2">Mittel</span>
             <span *ngIf="req.priority === 3">Hoch</span>
+            <span *ngIf="req.priority > 3">Undefiniert</span>
+            <span *ngIf="req.priority < 0">Undefiniert</span>
         </p>
     </div>
 </a>
