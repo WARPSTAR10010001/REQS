@@ -28,7 +28,7 @@ export class EditComponent implements OnInit {
         next: (response) => {
           this.serverAccess.getLatestREQ().subscribe({
             next: (latest) => {
-              this.router.navigate(['/detail', latest.id]);
+              this.router.navigate(['/detail', Number(this.activatedRoute.snapshot.paramMap.get("id"))]);
             }
           });
         }

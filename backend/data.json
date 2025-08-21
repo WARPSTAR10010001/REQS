@@ -1,296 +1,152 @@
 [
   {
-    "title": "qweoiuzmnxbcv",
-    "description": "asdklqweuqweoqiwueoqiwue",
-    "priority": 4,
+    "title": "IGEL-PC ausrollen",
+    "description": "Die IGEL-Clients sollen für das gesamte Stadthaus bereitgestellt werden. Dazu gehört die Grundkonfiguration mit Standard-Image, die Anbindung an das zentrale Management-System und die Installation der benötigten Anwendungen. Anschließend muss der Arbeitsplatz mit Monitor, Tastatur und Maus komplett eingerichtet werden. Vor der Übergabe an den Mitarbeiter ist ein Funktionstest (Drucker, Netzwerk, Citrix-Verbindung) durchzuführen und eine kurze Einweisung zu geben.",
+    "priority": 3,
     "id": 1
   },
   {
-    "title": "zxüüüüüüüü",
-    "description": "asdfasdfasdfasdfasdfasdf",
-    "priority": 4,
+    "title": "Geräte-Management-System programmieren",
+    "description": "Das hauseigene Geräte-Management-System 'NODE' soll von Grund auf als Web-Anwendung entwickelt werden. Geplant ist eine Angular-Frontend-Applikation mit einem Java-basierten Backend und einer SQL-Datenbank. Das System soll die Verwaltung von PCs, ThinClients, Druckern und sonstigen IT-Geräten ermöglichen. Im ersten Schritt müssen die Grundfunktionen wie Geräte anlegen, bearbeiten und löschen umgesetzt werden. Außerdem ist eine Benutzerverwaltung mit Rollen und Rechten vorzusehen. Langfristig soll NODE als zentrale Plattform für die gesamte Behörde genutzt werden.",
+    "priority": 3,
+    "id": 2
+  },
+  {
+    "title": "E-Mail-Postfach von Frau Meier prüfen",
+    "description": "Frau Meier meldet, dass sie keine Mails mehr empfangen kann. Vermutlich ist das Postfach-Limit erreicht. Größe prüfen, Archivierung vorschlagen und ggf. Speicherplatz erweitern.",
+    "priority": 1,
     "id": 3
   },
   {
-    "title": "powieuriqwoieur",
-    "description": "asdlkajsdljasldjasldjalsd",
-    "priority": 5,
+    "title": "VPN-Verbindung für Außendienst",
+    "description": "Die Kollegen im Außendienst benötigen eine stabile VPN-Verbindung, da aktuell wiederholt Abbrüche gemeldet werden. Logs analysieren und mögliche Ursachen wie Firewall-Einstellungen oder Leitungsprobleme prüfen.",
+    "priority": 3,
+    "id": 4
+  },
+  {
+    "title": "Neuer Laptop für Praktikantin",
+    "description": "Für die neue Praktikantin muss ein Arbeitsplatz eingerichtet werden. Dazu gehört ein Laptop mit Standardsoftware, Nutzerkonto im Active Directory sowie eine Einweisung in das Intranet.",
+    "priority": 2,
     "id": 5
   },
   {
-    "title": "mnbvcxzlkjhgfdsapoiuytrewq",
-    "description": "qwpoeirutyqwpoeiruty",
-    "priority": 3,
+    "title": "Softwarelizenz überprüfen",
+    "description": "Die Lizenz für die eingesetzte Textverarbeitungssoftware läuft in Kürze ab. Prüfen, ob eine Verlängerung notwendig ist oder eine neue Version beschafft werden soll.",
+    "priority": 2,
     "id": 6
   },
   {
-    "title": "lkjsadfpoiqwe",
-    "description": "yxcvyxcvyxcvyxcvyxcv",
+    "title": "Passwortrichtlinien kommunizieren",
+    "description": "Es gab mehrere Fälle schwacher Passwörter bei Mitarbeitern. Eine Erinnerung an die geltenden Passwortrichtlinien (Komplexität, regelmäßige Änderung) per Rundmail versenden.",
     "priority": 1,
     "id": 7
   },
   {
-    "title": "oiuoiuoiuoiuqweqwe",
-    "description": "qwoeirutyqpwoeiruty",
-    "priority": 2,
+    "title": "Datenbank-Backup validieren",
+    "description": "Die tägliche Sicherung der zentralen Bürgerdatenbank muss überprüft werden. Sicherstellen, dass alle Backups vollständig und wiederherstellbar sind.",
+    "priority": 3,
     "id": 8
   },
   {
-    "title": "zmxncbvqpoweiur",
-    "description": "sdfghjklqwertyuiopasdfghjkl",
-    "priority": 4,
+    "title": "Alte Geräte inventarisieren",
+    "description": "Mehrere alte Monitore und PCs stehen ungenutzt im Lager. Diese müssen in die Inventarliste aufgenommen und für die Verschrottung vorbereitet werden.",
+    "priority": 0,
     "id": 9
   },
   {
-    "title": "asdjklqweoiuqwe",
-    "description": "zxczxczxczxczxc",
-    "priority": 5,
+    "title": "Besprechungsraum-Beamer testen",
+    "description": "Der Beamer im großen Besprechungsraum zeigt bei Präsentationen Farbstörungen. Gerät testen, Kabelverbindungen prüfen und ggf. Ersatz organisieren.",
+    "priority": 1,
     "id": 10
   },
   {
-    "title": "qpowieuryzxcmvnb",
-    "description": "sdfgsdfgsdfgsdfg",
-    "priority": 3,
+    "title": "Telefonanlage konfigurieren",
+    "description": "Mehrere Durchwahlen funktionieren nicht zuverlässig. Die Einstellungen in der Telefonanlage müssen überprüft und angepasst werden.",
+    "priority": 2,
     "id": 11
   },
   {
-    "title": "lkjlkjlkjlkjlkjlkj",
-    "description": "zxczxczxcvbnmvbnmzxcv",
-    "priority": 2,
+    "title": "Virenschutz aktualisieren",
+    "description": "Die Signaturdatenbanken der Antivirensoftware sind auf einigen Rechnern veraltet. Update manuell anstoßen und prüfen, warum die automatische Aktualisierung nicht funktioniert.",
+    "priority": 3,
     "id": 12
   },
   {
-    "title": "poiuytrewqlkjhgfdsazxcvbnm",
-    "description": "asdkjhasdkjhasdkjhqweqwe",
-    "priority": 1,
+    "title": "Nutzerrechte prüfen",
+    "description": "Es gibt Berichte, dass einige Mitarbeiter auf Ordner zugreifen können, für die sie eigentlich keine Berechtigungen haben sollten. Zugriffsrechte kontrollieren und anpassen.",
+    "priority": 3,
     "id": 13
   },
   {
-    "title": "laskdjflaksjdflaksjd",
-    "description": "qpoweirutyqpoweiruty",
-    "priority": 4,
+    "title": "Archivserver aufräumen",
+    "description": "Der Speicherplatz auf dem Archivserver ist fast voll. Alte Daten, die gemäß den Richtlinien nicht mehr benötigt werden, sollen gelöscht oder ausgelagert werden.",
+    "priority": 2,
     "id": 14
   },
   {
-    "title": "oiuqweoiuqweoiuqwe",
-    "description": "qwertyuiopasdfghjklzxcvbnm",
-    "priority": 5,
+    "title": "IT-Schulung vorbereiten",
+    "description": "Eine Schulung für neue Mitarbeiter zum Thema IT-Sicherheit steht an. Präsentation erstellen, Inhalte abstimmen und die Durchführung planen.",
+    "priority": 1,
     "id": 15
   },
   {
-    "title": "zmxncbvqpowieury",
-    "description": "qweqweqweqweqweqwe",
-    "priority": 3,
+    "title": "Bürgerterminals prüfen",
+    "description": "Die öffentlich zugänglichen Terminals im Eingangsbereich reagieren teilweise sehr langsam. Performance analysieren, Updates durchführen und ggf. Hardware überprüfen.",
+    "priority": 2,
     "id": 16
   },
   {
-    "title": "asdjklqweoiuqweoiu",
-    "description": "zxczxczxczxczxcvbnm",
+    "title": "WLAN im Sitzungssaal optimieren",
+    "description": "Während großer Besprechungen bricht das WLAN häufig zusammen. Access Points prüfen, Kanäle optimieren und ggf. zusätzliche Hardware installieren.",
     "priority": 2,
     "id": 17
   },
   {
-    "title": "poiuytrewqlkjhgfdsazxcvbnm",
-    "description": "asdkjhasdkjhasdkjhqweqwe",
-    "priority": 4,
+    "title": "Diensthandys einrichten",
+    "description": "Für drei neue Mitarbeiter müssen Diensthandys mit E-Mail, VPN und den nötigen Apps ausgestattet werden. Danach Einweisung in die Nutzung durchführen.",
+    "priority": 1,
     "id": 18
   },
   {
-    "title": "laskdjflaksjdflaksjdfl",
-    "description": "qpoweirutyqpoweiruty",
-    "priority": 5,
+    "title": "Firewall-Logs analysieren",
+    "description": "Es gab mehrere ungewöhnliche Verbindungsversuche aus dem Internet. Firewall-Logs prüfen und feststellen, ob ein Sicherheitsvorfall vorliegt.",
+    "priority": 3,
     "id": 19
   },
   {
-    "title": "qwertyuiopasdfghjklzxcvbnm",
-    "description": "oiuoiuoiuoiuqweqwe",
-    "priority": 3,
+    "title": "Standardsoftware verteilen",
+    "description": "Auf mehreren neuen PCs fehlt noch die Standardsoftware wie Office-Paket und PDF-Reader. Diese über das Software-Deployment-System verteilen.",
+    "priority": 1,
     "id": 20
   },
   {
-    "title": "asdkjhasdkjhasdkjh",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 1,
+    "title": "Kabel im Serverraum ordnen",
+    "description": "Die Verkabelung im Serverraum ist unübersichtlich geworden. Kabel beschriften, dokumentieren und ordentlich verlegen.",
+    "priority": 0,
     "id": 21
   },
   {
-    "title": "mnbvcxzlkjhgfdsapoiuytrewq",
-    "description": "qweqweqweqweqweqwe",
-    "priority": 2,
+    "title": "Intranet-News aktualisieren",
+    "description": "Die Startseite des Intranets enthält noch alte Informationen. Inhalte überarbeiten und die neuesten IT-Hinweise einstellen.",
+    "priority": 0,
     "id": 22
   },
   {
-    "title": "lkjsadfpoiqwe",
-    "description": "asdlkajsdljasldjasldjalsd",
-    "priority": 4,
+    "title": "Scanner im Bauamt",
+    "description": "Der Dokumentenscanner im Bauamt zieht mehrfach Seiten schief ein. Gerät überprüfen, reinigen und ggf. Wartung beim Hersteller beauftragen.",
+    "priority": 2,
     "id": 23
   },
   {
-    "title": "poiuytrewqlkjhgfdsamnbvcxz",
-    "description": "qwpoeirutyqwpoeiruty",
-    "priority": 5,
+    "title": "Zugangskarten synchronisieren",
+    "description": "Die IT-Zugangskarten für das Rechenzentrum müssen mit dem zentralen System abgeglichen werden. Überprüfen, ob alle noch gültig sind und gesperrte Karten entfernen.",
+    "priority": 1,
     "id": 24
   },
   {
-    "title": "lkjsadfpoiqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 3,
+    "title": "Netzwerksegment prüfen",
+    "description": "Im dritten Stock kommt es immer wieder zu Verbindungsproblemen. Switches prüfen, Kabel testen und bei Bedarf defekte Ports austauschen.",
+    "priority": 2,
     "id": 25
-  },
-  {
-    "title": "oiuoiuoiuoiuqweqwe",
-    "description": "qpoweirutyqpwoeiruty",
-    "priority": 2,
-    "id": 26
-  },
-  {
-    "title": "zmxncbvqpowieury",
-    "description": "sdfghjklqwertyuiopasdfghjkl",
-    "priority": 1,
-    "id": 27
-  },
-  {
-    "title": "asdjklqweoiuqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 4,
-    "id": 28
-  },
-  {
-    "title": "poiuytrewqlkjhgfdsazxcvbnm",
-    "description": "asdkjhasdkjhasdkjhqweqwe",
-    "priority": 5,
-    "id": 29
-  },
-  {
-    "title": "laskdjflaksjdflaksjd",
-    "description": "qpoweirutyqpoweiruty",
-    "priority": 3,
-    "id": 30
-  },
-  {
-    "title": "qwertyuiopasdfghjklzxcvbnm",
-    "description": "oiuoiuoiuoiuqweqwe",
-    "priority": 2,
-    "id": 31
-  },
-  {
-    "title": "asdkjhasdkjhasdkjh",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 1,
-    "id": 32
-  },
-  {
-    "title": "mnbvcxzlkjhgfdsapoiuytrewq",
-    "description": "qweqweqweqweqweqwe",
-    "priority": 4,
-    "id": 33
-  },
-  {
-    "title": "lkjsadfpoiqwe",
-    "description": "asdlkajsdljasldjasldjalsd",
-    "priority": 5,
-    "id": 34
-  },
-  {
-    "title": "poiuytrewqlkjhgfdsamnbvcxz",
-    "description": "qwpoeirutyqwpoeiruty",
-    "priority": 3,
-    "id": 35
-  },
-  {
-    "title": "lkjsadfpoiqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 2,
-    "id": 36
-  },
-  {
-    "title": "oiuoiuoiuoiuqweqwe",
-    "description": "qpoweirutyqpwoeiruty",
-    "priority": 1,
-    "id": 37
-  },
-  {
-    "title": "zmxncbvqpowieury",
-    "description": "sdfghjklqwertyuiopasdfghjkl",
-    "priority": 4,
-    "id": 38
-  },
-  {
-    "title": "asdjklqweoiuqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 5,
-    "id": 39
-  },
-  {
-    "title": "poiuytrewqlkjhgfdsazxcvbnm",
-    "description": "asdkjhasdkjhasdkjhqweqwe",
-    "priority": 3,
-    "id": 40
-  },
-  {
-    "title": "laskdjflaksjdflaksjd",
-    "description": "qpoweirutyqpoweiruty",
-    "priority": 2,
-    "id": 41
-  },
-  {
-    "title": "qwertyuiopasdfghjklzxcvbnm",
-    "description": "oiuoiuoiuoiuqweqwe",
-    "priority": 1,
-    "id": 42
-  },
-  {
-    "title": "asdkjhasdkjhasdkjh",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 4,
-    "id": 43
-  },
-  {
-    "title": "mnbvcxzlkjhgfdsapoiuytrewq",
-    "description": "qweqweqweqweqweqwe",
-    "priority": 5,
-    "id": 44
-  },
-  {
-    "title": "lkjsadfpoiqwe",
-    "description": "asdlkajsdljasldjasldjalsd",
-    "priority": 3,
-    "id": 45
-  },
-  {
-    "title": "poiuytrewqlkjhgfdsamnbvcxz",
-    "description": "qwpoeirutyqwpoeiruty",
-    "priority": 2,
-    "id": 46
-  },
-  {
-    "title": "lkjsadfpoiqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 1,
-    "id": 47
-  },
-  {
-    "title": "oiuoiuoiuoiuqweqwe",
-    "description": "qpoweirutyqpwoeiruty",
-    "priority": 4,
-    "id": 48
-  },
-  {
-    "title": "zmxncbvqpowieury",
-    "description": "sdfghjklqwertyuiopasdfghjkl",
-    "priority": 5,
-    "id": 49
-  },
-  {
-    "title": "asdjklqweoiuqwe",
-    "description": "zxczxczxczxczxcvbnm",
-    "priority": 3,
-    "id": 50
-  },
-  {
-    "title": "edekpjfjrrrr",
-    "description": "meow :3 oopsies :3",
-    "priority": 3,
-    "id": 51
   }
 ]
